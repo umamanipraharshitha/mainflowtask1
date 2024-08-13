@@ -1,0 +1,123 @@
+<i class="fa fa-html5" aria-hidden="true"></i>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="okati.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: "Roboto", sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 40px;
+            background-color: #f8f8f8;
+        }
+
+        nav a {
+            font-size: 20px;
+            padding: 0 20px;
+            cursor: pointer;
+            color: #333;
+            text-decoration: none;
+        }
+
+        main {
+            display: flex;
+            justify-content: space-between;
+            padding: 120px 40px;
+        }
+
+        .content {
+            max-width: 600px;
+        }
+
+        .content .tagline {
+            font-size: 20px;
+            color: rgb(6, 63, 121);
+        }
+
+        .content .title {
+            font-size: 30px;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+
+        .content .description {
+            font-size: 17px;
+            margin-bottom: 20px;
+        }
+
+        .content .buttons {
+            display: flex;
+            gap: 20px;
+        }
+
+        .content input[type="button"] {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .content input[type="button"][name="Buy now"] {
+            background-color: black;
+            color: white;
+        }
+
+        .content input[type="button"][name="Add to cart"] {
+            background-color: rgb(248, 250, 251);
+            border: 1px solid black;
+        }
+
+        .image {
+            padding-left: 100px;
+        }
+
+        .image img {
+            height: 300px;
+            width: 280px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#">About Us</a>
+            <a href="#">Products</a>
+            <a href="#">Offers</a>
+            <a href="#">Your Orders</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="content">
+            <div class="tagline">
+                #TRENDING 1 | 150+ sold in last 10 mins
+            </div>
+            <div class="title">
+                Expand your work
+            </div>
+            <div class="description">
+                Get a free adaptor with a 6-month free trial to all products and 1-year warranty.
+            </div>
+            <div class="buttons">
+                <input type="button" name="Buy now" value="Buy Now">
+                <input type="button" name="Add to cart" value="Add to Cart">
+            </div>
+        </div>
+        <div class="image">
+            <img src="https://m.media-amazon.com/images/I/41+sKeZfCxL._SY300_SX300_.jpg" alt="Product image">
+        </div>
+    </main>
+</body>
+</html>
